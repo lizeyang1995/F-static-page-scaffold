@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,31 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left button {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  font-size: small;
 }
