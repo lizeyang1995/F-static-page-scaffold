@@ -41,10 +41,12 @@ ul {
 .header-left button {
   background-color: #42b72a;
   border: none;
+  font-size: xx-small;
   color: white;
-  height: 30px;
+  height: 25px;
+  padding: 5px 10px;
   margin-left: 10px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .header-right {
@@ -82,6 +84,7 @@ figcaption p {
 
 figcaption button {
   margin-top: 100px;
-  border: 1px solid gray;
-  border-radius: 3px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 5px 10px;
 }
